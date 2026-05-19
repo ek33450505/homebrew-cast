@@ -9,6 +9,11 @@ cask "cast-desktop" do
 
   app "Cast Desktop.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Cast Desktop.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/com.cast-desktop",
     "~/Library/Logs/cast-desktop",
