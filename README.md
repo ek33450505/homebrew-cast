@@ -9,6 +9,12 @@ brew tap ek33450505/cast
 brew install cast
 ```
 
+### Cast Desktop (macOS app)
+
+```bash
+brew install --cask ek33450505/cast/cast-desktop
+```
+
 Then set up the full framework into `~/.claude/`:
 
 ```bash
