@@ -1,6 +1,6 @@
 cask "cast-desktop" do
-  version "1.2.3"
-  sha256 "fdefb65e481240fefa9df2e1a24e0c88a77907f152f76e92f3ff68278e07c0e3"
+  version "1.2.4"
+  sha256 "3af1abb3d206e90e2a21b0bc47cfd5705665a7700043d4c5ed60e5fe0e712b30"
 
   url "https://github.com/ek33450505/cast-desktop/releases/download/v#{version}/Cast-Desktop-aarch64-darwin.tar.gz"
   name "Cast Desktop"
