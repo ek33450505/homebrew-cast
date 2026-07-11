@@ -1,8 +1,8 @@
 class Cast < Formula
   desc "Multi-agent framework for Claude Code"
   homepage "https://github.com/ek33450505/claude-agent-team"
-  url "https://github.com/ek33450505/claude-agent-team/archive/refs/tags/v9.5.2.tar.gz"
-  sha256 "5b0730b933cebd3540156c4c450c699f347bcf82434fa2c5b316637499cd1a7d"
+  url "https://github.com/ek33450505/claude-agent-team/archive/refs/tags/v9.5.3.tar.gz"
+  sha256 "0ba892af4bc9c28936d65048ee4c8459827573511fcb09aab6eae62e18a36985"
   license "MIT"
 
   depends_on "python"
@@ -35,6 +35,6 @@ class Cast < Formula
   end
 
   test do
-    assert_match "9.5.2", shell_output("#{bin}/cast --version")
+    assert_match "9.5.3", shell_output("#{bin}/cast --version")
   end
 end
