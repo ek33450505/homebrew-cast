@@ -1,8 +1,8 @@
 class Cast < Formula
   desc "Multi-agent framework for Claude Code"
   homepage "https://github.com/ek33450505/claude-agent-team"
-  url "https://github.com/ek33450505/claude-agent-team/archive/refs/tags/v10.1.0.tar.gz"
-  sha256 "d5f717e6482d0f7f0f4f63e83c84de6323cf872fcfefcfa9d000616d724840a0"
+  url "https://github.com/ek33450505/claude-agent-team/archive/refs/tags/v10.2.0.tar.gz"
+  sha256 "d194861c40ccc6e25ed644555e76042da192c8244ed8bb065adf127cb126aeda"
   license "MIT"
 
   depends_on "python"
